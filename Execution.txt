@@ -1,0 +1,12 @@
+
+Flow of execution:
+1. 'circuits' word file explains how to do the wiring, I have used nodeMCU as its cheap and less power comnsuming device.
+2. 'code_on_esp' is the code used to write on NodeMCU; written in Arduino.
+3.  Account on thingsSpeak is made as to record data, since I don't have a server.
+4.  Since, I am more familiar with HTML and JAVAScript I took it as to show map location based on thingSpeak API value.
+
+Procedure in execution:
+1.GPS module gives the location to ESP8266
+2.ESP8266 sends the data to the thingspeak database to record values, using connected wifi network.
+3.The index_page.html webpage shows the map by using google API and Thingspeak API to fetch and show values in an 
+  interactive way on the map with latest recorded value.
